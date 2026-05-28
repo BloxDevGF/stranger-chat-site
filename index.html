@@ -20,7 +20,7 @@
 </head>
 <body>
 
-    <div id= "header">Talk to Strangers (US/UK)</div>
+    <div id="header">Talk to Strangers (US/UK)</div>
     
     <div id="chat-box">
         <div class="message system">Click "Find Stranger" to start talking...</div>
@@ -32,13 +32,12 @@
         <button id="send-btn" disabled>Send</button>
     </div>
 
-    <!-- YOUR AD NETWORK SCRIPT WILL GO DIRECTLY BELOW THIS LINE -->
     <script>
         function triggerAdAndNext() {
-            // This function handles your ad popunder triggers
-            console.log("Next chat clicked. Triggering ad network auction...");
+            // OPENS YOUR LIVE MONETAG DIRECT LINK IN A NEW TAB TO GET AD REVENUE
+            window.open("https://omg10.com/4/11070529", "_blank");
             
-            // Temporary matching simulation until backend server connects
+            // Temporary matching simulation logic
             const chatBox = document.getElementById('chat-box');
             chatBox.innerHTML += '<div class="message system">Looking for a stranger...</div>';
         }
